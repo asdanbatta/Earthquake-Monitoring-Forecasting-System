@@ -1,0 +1,14 @@
+Error 400: Bad Request
+
+169735 matching events exceeds search limit of 20000. Modify the search to match fewer events.
+
+Usage details are available from https://earthquake.usgs.gov/fdsnws/event/1
+
+Request:
+/fdsnws/event/1/query.csv?starttime=2020-01-01&amp;endtime=2025-12-31&amp;minmagnitude=2.5&amp;orderby=time
+
+Request Submitted:
+2026-07-23T13:54:07+00:00
+
+Service version:
+2.7.0
