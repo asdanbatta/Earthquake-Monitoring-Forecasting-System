@@ -1,36 +1,26 @@
 # 🌍 Earthquake Monitoring & Forecasting System
 
-## 📖 Project Overview
+## 📖 Overview
 
-The **Earthquake Monitoring & Forecasting System** is a Python-based data science and machine learning project designed to collect, process, analyze, visualize, and forecast earthquake activity using historical earthquake data.
+This project is an end-to-end Data Science and Machine Learning system for earthquake monitoring, analysis, forecasting, GIS visualization, and interactive dashboards.
 
-The project combines data preprocessing, GIS visualization, statistical analysis, machine learning, time-series forecasting, and an interactive Streamlit dashboard.
-
----
-
-## 🎯 Project Objectives
-
-- Collect and preprocess earthquake datasets
-- Analyze earthquake characteristics
-- Visualize earthquake locations and magnitudes
-- Forecast future earthquake activity
-- Predict earthquake risk using machine learning
-- Build an interactive dashboard for monitoring and analysis
+The project demonstrates the complete data science workflow from data collection to deployment using Python and Streamlit.
 
 ---
 
 ## 🚀 Features
 
-- 🌍 Earthquake Data Collection
-- 🧹 Data Cleaning & Preprocessing
-- 🗺️ GIS Mapping
-- 📊 Statistical Analysis
-- 🤖 Machine Learning
-- 📈 Time-Series Forecasting
-- 🌎 Regional Forecasting
-- ⚠️ Earthquake Risk Prediction
-- 📉 Interactive Plotly Visualizations
-- 🌐 Streamlit Dashboard
+- Earthquake Data Collection
+- Data Cleaning & Preprocessing
+- GIS Mapping
+- Seismological Analysis
+- Machine Learning Clustering
+- Time Series Forecasting
+- Real-Time Earthquake Monitoring
+- AI Risk Prediction
+- Regional Earthquake Forecasting
+- Multi-Region Forecasting
+- Interactive Streamlit Dashboard
 
 ---
 
@@ -42,31 +32,46 @@ The project combines data preprocessing, GIS visualization, statistical analysis
 - Matplotlib
 - Plotly
 - Scikit-learn
-- GeoPandas
-- Folium
 - Streamlit
+- Jupyter Notebook
 
 ---
 
 ## 📂 Project Structure
 
-- 01_Data_Collection_Preprocessing.ipynb
-- 02_GIS_Mapping_Visualization.ipynb
-- 03_Scientific_Seismological_Analysis.ipynb
-- 04_Machine_Learning_Clustering.ipynb
-- 05_Time_Series_Forecasting.ipynb
-- 06_Real_Time_Earthquake_Monitoring.ipynb
-- 07_AI_Earthquake_Risk_Prediction.ipynb
-- 08_Regional_Earthquake_Forecasting.ipynb
-- 09_Multi_Region_Earthquake_Forecasting.ipynb
-- 10_Streamlit_Dashboard.py
-- 11_Dashboard_Enhancement.ipynb
+```text
+Earthquake-Monitoring-Forecasting-System/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── outputs/
+│   ├── forecasts/
+│   ├── maps/
+│   ├── figures/
+│   └── reports/
+│
+├── 01_Data_Collection_Preprocessing.ipynb
+├── 02_GIS_Mapping_Visualization.ipynb
+├── 03_Scientific_Seismological_Analysis.ipynb
+├── 04_Machine_Learning_Clustering.ipynb
+├── 05_Time_Series_Forecasting.ipynb
+├── 06_Real_Time_Earthquake_Monitoring.ipynb
+├── 07_AI_Earthquake_Risk_Prediction.ipynb
+├── 08_Regional_Earthquake_Forecasting.ipynb
+├── 09_Multi_Region_Earthquake_Forecasting.ipynb
+├── 10_Streamlit_Dashboard.py
+├── 11_Dashboard_Enhancement.ipynb
+├── requirements.txt
+└── README.md
+```
 
 ---
 
-## ▶️ How to Run
+## ▶️ Running the Project
 
-Install the required libraries:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -80,31 +85,10 @@ streamlit run 10_Streamlit_Dashboard.py
 
 ---
 
-## 📊 Dashboard Highlights
-
-- Dashboard Summary
-- Earthquake Magnitude Distribution
-- Earthquake Depth Distribution
-- Interactive Earthquake Map
-- Processed Dataset Viewer
-- Regional Forecasting
-- Multi-Region Forecasting
-- Earthquake Risk Analysis
-
----
-
-## 🔮 Future Improvements
-
-- Live earthquake data integration
-- Deep learning forecasting
-- Real-time alerts
-- Mobile-friendly dashboard
-- Cloud deployment
-
----
-
 ## 👨‍💻 Author
 
-**Earthquake Monitoring & Forecasting System**
+**Abdallah Saad Adamu**
 
-Developed using Python, Machine Learning, GIS, and Streamlit.
+Data Science | Machine Learning | GIS | Time Series Forecasting | Python | Streamlit
+
+---
