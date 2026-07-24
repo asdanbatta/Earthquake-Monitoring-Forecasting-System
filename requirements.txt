@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+scikit-learn
+geopandas
+folium
+statsmodels
+seaborn
+scipy
+requests
+joblib
+xgboost
